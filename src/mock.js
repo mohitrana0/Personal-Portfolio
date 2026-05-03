@@ -18,7 +18,7 @@ export const profile = {
     "I care about the small details — the 40ms frame you shaved off, the 22% more minutes users stay, the tiny interaction that makes software feel alive.",
   ],
   stats: [
-    { label: "Years coding", value: "4+" },
+    { label: "Years coding", value: "1+" },
     { label: "Projects shipped", value: "12" },
     { label: "CGPA", value: "7.6" },
     { label: "FPS on Pi 4", value: "20" },
@@ -48,6 +48,7 @@ export const skills = [
       "NumPy",
       "Matplotlib",
       "OpenCV",
+      "YOLO v8",
     ],
   },
   {
@@ -60,12 +61,11 @@ export const skills = [
       "Jupyter",
       "MATLAB",
       "SciLab",
-      "MS Excel",
     ],
   },
   {
     group: "Hardware & Embedded",
-    items: ["Arduino", "Raspberry Pi", "VL53L1X LiDAR", "YOLOv8 on edge"],
+    items: ["Arduino", "Raspberry Pi", "VL53L1X LiDAR"],
   },
 ];
 

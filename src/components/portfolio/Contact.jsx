@@ -29,15 +29,18 @@ const Contact = () => {
       return;
     }
     setSending(true);
+    
+    const subject = encodeURIComponent(`Portfolio Contact from ${form.name}`);
+    const body = encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\n\nMessage:\n${form.message}`);
+    const mailtoLink = `mailto:${profile.email}?subject=${subject}&body=${body}`;
+    
+    window.location.href = mailtoLink;
+
     setTimeout(() => {
-      // persist locally so refresh keeps state (mock backend)
-      const msgs = JSON.parse(localStorage.getItem("mohit_messages") || "[]");
-      msgs.push({ ...form, at: new Date().toISOString() });
-      localStorage.setItem("mohit_messages", JSON.stringify(msgs));
       setForm({ name: "", email: "", message: "" });
       setSending(false);
-      toast.success("Message sent", {
-        description: "I'll get back to you within 24 hours.",
+      toast.success("Opening email client", {
+        description: "Please click send in your email app.",
       });
     }, 700);
   };

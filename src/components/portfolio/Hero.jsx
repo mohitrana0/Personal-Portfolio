@@ -1,6 +1,6 @@
 import React from "react";
 import { profile } from "../../mock";
-import { ArrowUpRight, MapPin, Sparkles, Cpu, Circle, Download } from "lucide-react";
+import { ArrowUpRight, MapPin, Sparkles, Cpu, Circle, Download, Linkedin } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -49,6 +49,9 @@ const Hero = () => {
               </a>
               <a href="/resume.pdf" download="Mohit_Rana_Resume.pdf" className="btn-outline flex items-center gap-2">
                 Resume <Download size={16} />
+              </a>
+              <a href="https://www.linkedin.com/in/mohit-rana-4560592b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="btn-outline flex items-center gap-2">
+                LinkedIn <Linkedin size={16} />
               </a>
               <span className="tag ml-1 hidden sm:inline">
                 Press <span className="kbd">↓</span> to scroll
