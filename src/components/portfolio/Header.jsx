@@ -49,7 +49,7 @@ const Header = () => {
           onClick={() => handleClick("top")}
           className="flex items-center gap-2.5 group"
         >
-          <span className="h-7 w-7 rounded-md bg-[#0E0E0E] text-[#00F3FF] grid place-items-center font-bold text-sm display">
+          <span className="h-7 w-7 rounded-md bg-[#0E0E0E] text-[#90E0EF] grid place-items-center font-bold text-sm display">
             M
           </span>
           <span className="mono text-[13px] text-[#0E0E0E]">
@@ -80,7 +80,7 @@ const Header = () => {
             href={`mailto:${profile.email}`}
             className="btn-ink text-[13px] !py-2 !px-4"
           >
-            <span className="h-1.5 w-1.5 rounded-full bg-[#00F3FF]" />
+            <span className="h-1.5 w-1.5 rounded-full bg-[#90E0EF]" />
             Let's talk
           </a>
         </div>

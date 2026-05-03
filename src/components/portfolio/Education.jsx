@@ -22,7 +22,7 @@ const Education = () => {
           {/* Education */}
           <div className="col-span-12 lg:col-span-7">
             <div className="flex items-center gap-3 mb-5">
-              <span className="h-9 w-9 rounded-lg bg-[#0E0E0E] text-[#00F3FF] grid place-items-center">
+              <span className="h-9 w-9 rounded-lg bg-[#0E0E0E] text-[#90E0EF] grid place-items-center">
                 <GraduationCap size={17} />
               </span>
               <h3 className="display text-[22px] font-semibold">Education</h3>
@@ -53,7 +53,7 @@ const Education = () => {
           {/* Certifications */}
           <div className="col-span-12 lg:col-span-5">
             <div className="flex items-center gap-3 mb-5">
-              <span className="h-9 w-9 rounded-lg bg-[#0E0E0E] text-[#00F3FF] grid place-items-center">
+              <span className="h-9 w-9 rounded-lg bg-[#0E0E0E] text-[#90E0EF] grid place-items-center">
                 <BadgeCheck size={17} />
               </span>
               <h3 className="display text-[22px] font-semibold">Certifications</h3>

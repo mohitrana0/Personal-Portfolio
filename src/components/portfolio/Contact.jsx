@@ -48,13 +48,13 @@ const Contact = () => {
         <div className="grid grid-cols-12 gap-10">
           <div className="col-span-12 lg:col-span-7">
             <div className="section-label text-white/55">
-              <span className="text-[#00F3FF]">06</span>
+              <span className="text-[#90E0EF]">06</span>
               <span className="text-white/40">—</span>
               <span>Contact</span>
             </div>
             <h2 className="display font-semibold text-[#F4F1E8] leading-[0.98] tracking-tight text-[52px] sm:text-[72px] lg:text-[96px] mt-4">
               Let's build <br />
-              something <span className="text-[#00F3FF]">together</span>.
+              something <span className="text-[#90E0EF]">together</span>.
             </h2>
             <p className="mt-6 text-[17px] text-white/70 max-w-[520px] leading-relaxed">
               I'm currently {profile.availability.toLowerCase()} and always
@@ -71,7 +71,7 @@ const Contact = () => {
                     className="group flex items-center justify-between gap-4 py-4 border-b border-white/10"
                   >
                     <div className="flex items-center gap-4">
-                      <span className="h-10 w-10 rounded-xl bg-white/5 text-[#00F3FF] grid place-items-center border border-white/10">
+                      <span className="h-10 w-10 rounded-xl bg-white/5 text-[#90E0EF] grid place-items-center border border-white/10">
                         {Icon && <Icon size={16} />}
                       </span>
                       <div>
@@ -94,7 +94,7 @@ const Contact = () => {
                       {s.href !== "#" && (
                         <a
                           href={s.href}
-                          className="h-9 w-9 rounded-full bg-[#00F3FF] text-[#0E0E0E] grid place-items-center group-hover:rotate-[-15deg] transition-transform"
+                          className="h-9 w-9 rounded-full bg-[#90E0EF] text-[#0E0E0E] grid place-items-center group-hover:rotate-[-15deg] transition-transform"
                         >
                           <ArrowUpRight size={15} />
                         </a>
@@ -122,7 +122,7 @@ const Contact = () => {
                   <input
                     value={form.name}
                     onChange={(e) => setForm({ ...form, name: e.target.value })}
-                    className="mt-1 w-full bg-transparent border-b border-white/20 focus:border-[#00F3FF] outline-none py-2.5 text-[15px] placeholder:text-white/30"
+                    className="mt-1 w-full bg-transparent border-b border-white/20 focus:border-[#90E0EF] outline-none py-2.5 text-[15px] placeholder:text-white/30"
                     placeholder="Ada Lovelace"
                   />
                 </div>
@@ -134,7 +134,7 @@ const Contact = () => {
                     type="email"
                     value={form.email}
                     onChange={(e) => setForm({ ...form, email: e.target.value })}
-                    className="mt-1 w-full bg-transparent border-b border-white/20 focus:border-[#00F3FF] outline-none py-2.5 text-[15px] placeholder:text-white/30"
+                    className="mt-1 w-full bg-transparent border-b border-white/20 focus:border-[#90E0EF] outline-none py-2.5 text-[15px] placeholder:text-white/30"
                     placeholder="you@company.com"
                   />
                 </div>
@@ -148,7 +148,7 @@ const Contact = () => {
                     onChange={(e) =>
                       setForm({ ...form, message: e.target.value })
                     }
-                    className="mt-1 w-full bg-transparent border-b border-white/20 focus:border-[#00F3FF] outline-none py-2.5 text-[15px] resize-none placeholder:text-white/30"
+                    className="mt-1 w-full bg-transparent border-b border-white/20 focus:border-[#90E0EF] outline-none py-2.5 text-[15px] resize-none placeholder:text-white/30"
                     placeholder="Tell me a little about what you're working on…"
                   />
                 </div>
@@ -156,7 +156,7 @@ const Contact = () => {
               <button
                 type="submit"
                 disabled={sending}
-                className="mt-7 w-full inline-flex items-center justify-center gap-2 bg-[#00F3FF] text-[#0E0E0E] rounded-full py-3 font-medium text-[14px] hover:bg-white disabled:opacity-60 transition-colors"
+                className="mt-7 w-full inline-flex items-center justify-center gap-2 bg-[#90E0EF] text-[#0E0E0E] rounded-full py-3 font-medium text-[14px] hover:bg-white disabled:opacity-60 transition-colors"
               >
                 {sending ? "Sending…" : "Send message"}
                 <ArrowUpRight size={15} />

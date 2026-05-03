@@ -86,7 +86,7 @@ const Projects = () => {
                       </span>
                       <span
                         className={`h-2 w-2 rounded-full transition-colors ${
-                          active === p.id ? "bg-[#00F3FF]" : "bg-white/30"
+                          active === p.id ? "bg-[#90E0EF]" : "bg-white/30"
                         }`}
                       />
                     </div>
@@ -108,7 +108,7 @@ const Projects = () => {
                     <span className="mono text-[11px] text-white/50">
                       case study
                     </span>
-                    <span className="h-8 w-8 rounded-full bg-[#00F3FF] text-[#0E0E0E] grid place-items-center group-hover:rotate-[-15deg] transition-transform">
+                    <span className="h-8 w-8 rounded-full bg-[#90E0EF] text-[#0E0E0E] grid place-items-center group-hover:rotate-[-15deg] transition-transform">
                       <ArrowUpRight size={16} />
                     </span>
                   </div>

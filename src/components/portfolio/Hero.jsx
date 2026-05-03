@@ -31,7 +31,7 @@ const Hero = () => {
               Mohit <br />
               <span className="relative inline-block z-0">
                 Rana
-                <span className="absolute left-0 right-0 bottom-[10%] h-[14%] bg-[#00F3FF] -z-10" />
+                <span className="absolute left-0 right-0 bottom-[10%] h-[14%] bg-[#90E0EF] -z-10" />
               </span>
               <span className="text-[rgba(14,14,14,0.35)]">.</span>
             </h1>
@@ -69,29 +69,29 @@ const Hero = () => {
               </div>
               <div className="p-5 mono text-[12.5px] leading-[1.9]">
                 <p>
-                  <span className="text-[#00F3FF]">$</span>{" "}
+                  <span className="text-[#90E0EF]">$</span>{" "}
                   <span className="text-white/70">whoami</span>
                 </p>
                 <p className="text-white/90">mohit-rana</p>
 
                 <p className="mt-3">
-                  <span className="text-[#00F3FF]">$</span>{" "}
+                  <span className="text-[#90E0EF]">$</span>{" "}
                   <span className="text-white/70">cat role.txt</span>
                 </p>
                 <p className="text-white/90">{profile.role}</p>
 
                 <p className="mt-3">
-                  <span className="text-[#00F3FF]">$</span>{" "}
+                  <span className="text-[#90E0EF]">$</span>{" "}
                   <span className="text-white/70">ls ./focus</span>
                 </p>
                 {profile.specialties.map((s) => (
                   <p key={s} className="text-white/90 pl-3">
-                    <span className="text-[#00F3FF]">›</span> {s}
+                    <span className="text-[#90E0EF]">›</span> {s}
                   </p>
                 ))}
 
                 <p className="mt-3">
-                  <span className="text-[#00F3FF]">$</span>{" "}
+                  <span className="text-[#90E0EF]">$</span>{" "}
                   <span className="text-white/70">uptime</span>
                 </p>
                 <p className="text-white/60">
@@ -99,8 +99,8 @@ const Hero = () => {
                 </p>
 
                 <p className="mt-3 flex items-center gap-2">
-                  <span className="text-[#00F3FF]">$</span>
-                  <span className="inline-block w-2.5 h-4 bg-[#00F3FF] animate-pulse" />
+                  <span className="text-[#90E0EF]">$</span>
+                  <span className="inline-block w-2.5 h-4 bg-[#90E0EF] animate-pulse" />
                 </p>
               </div>
               <div className="px-5 py-3 border-t border-white/10 flex items-center justify-between mono text-[11px] text-white/60">
@@ -134,7 +134,7 @@ const Hero = () => {
                     key={`${j}-${t}`}
                     className="mono text-[18px] text-[rgba(14,14,14,0.55)]"
                   >
-                    {t} <span className="text-[#00F3FF]">◆</span>
+                    {t} <span className="text-[#90E0EF]">◆</span>
                   </span>
                 ))}
               </div>

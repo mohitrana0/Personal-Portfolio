@@ -41,7 +41,7 @@ const Skills = () => {
               >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-3">
-                    <span className="h-10 w-10 rounded-xl bg-[#0E0E0E] text-[#00F3FF] grid place-items-center">
+                    <span className="h-10 w-10 rounded-xl bg-[#0E0E0E] text-[#90E0EF] grid place-items-center">
                       <Icon size={18} />
                     </span>
                     <h3 className="display text-[22px] font-semibold">
