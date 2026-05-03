@@ -24,21 +24,7 @@ const About = () => {
             ))}
           </div>
 
-          <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-[1px] bg-[rgba(14,14,14,0.12)] border border-[rgba(14,14,14,0.12)] rounded-2xl overflow-hidden">
-            {profile.stats.map((s) => (
-              <div
-                key={s.label}
-                className="bg-[#F4F1E8] p-5 flex flex-col gap-1.5"
-              >
-                <span className="display text-[34px] font-semibold leading-none">
-                  {s.value}
-                </span>
-                <span className="mono text-[11px] uppercase tracking-wider text-[rgba(14,14,14,0.55)]">
-                  {s.label}
-                </span>
-              </div>
-            ))}
-          </div>
+
         </div>
       </div>
     </section>
