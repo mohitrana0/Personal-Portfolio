@@ -62,7 +62,7 @@ const Education = () => {
               {certifications.map((c, i) => (
                 <div
                   key={i}
-                  className="flex items-start justify-between gap-4 p-4 rounded-xl bg-[#F4F1E8] border border-[rgba(14,14,14,0.12)] card-hover"
+                  className="group relative flex items-start justify-between gap-4 p-4 rounded-xl bg-[#F4F1E8] border border-[rgba(14,14,14,0.12)] card-hover hover:z-10"
                 >
                   <div>
                     <p className="text-[15px] font-medium">{c.name}</p>
@@ -73,6 +73,17 @@ const Education = () => {
                   <span className="mono text-[12px] text-[rgba(14,14,14,0.55)]">
                     {c.year}
                   </span>
+
+                  {c.pdf && (
+                    <div className="absolute top-1/2 -translate-y-1/2 right-[105%] mr-2 w-[500px] h-[375px] bg-white border border-[rgba(14,14,14,0.12)] rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 overflow-hidden pointer-events-none scale-95 group-hover:scale-100 origin-right hidden lg:block">
+                      <iframe 
+                        src={`${c.pdf}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`} 
+                        className="w-full h-full border-0 pointer-events-none" 
+                        title={`${c.name} Certificate`} 
+                        tabIndex="-1"
+                      />
+                    </div>
+                  )}
                 </div>
               ))}
             </div>

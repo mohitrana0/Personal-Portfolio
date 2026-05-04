@@ -33,7 +33,7 @@ const Hero = () => {
                 Rana
                 <span className="absolute left-0 right-0 bottom-[10%] h-[14%] bg-[#90E0EF] -z-10" />
               </span>
-              <span className="text-[rgba(14,14,14,0.35)]">.</span>
+              <span className="text-[#0E0E0E]">.</span>
             </h1>
 
             <p className="mt-8 text-[18px] sm:text-[20px] text-[rgba(14,14,14,0.72)] max-w-[620px] leading-relaxed">

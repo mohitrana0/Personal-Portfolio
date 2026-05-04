@@ -94,7 +94,7 @@ export const projects = [
     subtitle: "YOLOv8 + LiDAR on Raspberry Pi 4",
     year: "2025",
     description:
-      "An edge-AI pipeline that detects objects at 20 FPS on a Raspberry Pi 4 and fuses ToF LiDAR distance for precise depth-aware localization — all on 8GB of RAM.",
+      "An edge detection system that detects objects at 20 FPS on a Raspberry Pi 4 and fuses ToF LiDAR distance for precise depth-aware localization — all on 8GB of RAM.",
     metrics: [
       { label: "Frame rate", value: "20 FPS @ 480×320" },
       { label: "Detection accuracy", value: "80 – 92%" },
@@ -177,10 +177,10 @@ export const education = [
 ];
 
 export const certifications = [
-  { name: "Linux Certification", issuer: "Spoken Tutorial, IIT Bombay", year: "2024" },
-  { name: "Python Programming", issuer: "TechStack Academy", year: "2024" },
-  { name: "RDBMS (PostgreSQL)", issuer: "Spoken Tutorial, IIT Bombay", year: "2025" },
-  { name: "Arduino", issuer: "Spoken Tutorial, IIT Bombay", year: "2025" },
+  { name: "Linux Certification", issuer: "Spoken Tutorial, IIT Bombay", year: "2024", pdf: "/certificates/linux/linux-cert.pdf" }, /* e.g. "/certificates/linux/cert.pdf" */
+  { name: "Python Programming", issuer: "TechStack Academy", year: "2024", pdf: "/certificates/python/cert.pdf" }, /* e.g. "/certificates/python/cert.pdf" */
+  { name: "RDBMS (PostgreSQL)", issuer: "Spoken Tutorial, IIT Bombay", year: "2025", pdf: "/certificates/rdbms/SQL cert.pdf" }, /* e.g. "/certificates/rdbms/cert.pdf" */
+  { name: "Arduino", issuer: "Spoken Tutorial, IIT Bombay", year: "2025", pdf: "/certificates/arduino/Adruino-cert.pdf" }, /* e.g. "/certificates/arduino/cert.pdf" */
 ];
 
 export const socialLinks = [
