@@ -8,7 +8,6 @@ export const profile = {
   specialties: ["AI / ML Engineering", "Computer Vision", "Frontend Development"],
   location: "New Delhi, India",
   email: "mohitrana.asr@gmail.com",
-  phone: "+91 98212 68037",
   availability: "Open to internships & full-time roles",
   tagline:
     "I build fast, reliable systems — from real-time edge AI on Raspberry Pi to polished, production-grade web interfaces.",
@@ -185,6 +184,5 @@ export const certifications = [
 
 export const socialLinks = [
   { label: "Email", href: "mailto:mohitrana.asr@gmail.com", handle: "mohitrana.asr@gmail.com" },
-  { label: "Phone", href: "tel:+919821268037", handle: "+91 98212 68037" },
   { label: "Location", href: "#", handle: "New Delhi, IN" },
 ];
